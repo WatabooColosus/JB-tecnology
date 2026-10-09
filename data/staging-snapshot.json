@@ -1,0 +1,43 @@
+{
+  "taken_at": "2026-10-09",
+  "verification_method": "WPVibe site_info; GET /wp/v2/settings; GET /wp/v2/pages; GET /wp/v2/menus; GET /wp/v2/menu-items; HTML <head>/<header>",
+  "production_url": "https://jbtecnologiamed.com.co",
+  "staging_url": "https://staging.jbtecnologiamed.com.co",
+  "connection": "verified read-only",
+  "active_theme": {
+    "name": "Woodmart Child",
+    "version": "1.0.0"
+  },
+  "plugins_confirmed": [
+    "Elementor 4.3.4",
+    "WooCommerce 11.2.0",
+    "WooCommerce Composite Products 11.1.3",
+    "Woodmart Core 1.1.9"
+  ],
+  "homepage": {
+    "id": 10625,
+    "title": "Home Mega-electronics",
+    "same_id_as_prod": true
+  },
+  "menu_ids": [
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "menu_rows": 35,
+  "public_header_content": "Search · Soporte 24 Horas · +1 212-334-0212 · En todo el país · Compra Online · Categorias · Promociones · Tienda · Contáctenos · Garantías · Nosotros",
+  "security": {
+    "head_meta_robots": "max-image-preview:large",
+    "noindex_detected_in_head": false,
+    "access_control_verified": false,
+    "db_isolation_verified": false,
+    "mails_and_webhooks_disabled_verified": false,
+    "backups_verified": false,
+    "payment_sandbox_verified": false
+  },
+  "needs_wp_vibe_plugin_for_file_ops": true,
+  "wordpress_modified": false
+}
