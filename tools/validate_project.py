@@ -23,5 +23,9 @@ assert all(t["issue_url"].endswith("/issues/"+str(t["issue"])) for t in tasks)
 assert len({t["issue"] for t in tasks})==16
 assert snap["homepage"]["id"]==10625
 assert snap["staging_url"]=="https://staging.jbtecnologiamed.com.co"
-assert snap["security"]["noindex_detected_in_head"] is False
+assert snap["security"]["blog_public_reading_setting"] == 0
+assert snap["security"]["noindex_detected_in_head"] is True
+assert snap["security"]["production_blog_public_reading_setting"] == 1
+assert snap["security"]["staging_theme_draft_published"] is False
+assert snap["security"]["preview_technical_verified"] is True
 print(f"OK: {len(sections)} bloques, {len(tasks)} issues enlazadas, staging e integridad de tareas")

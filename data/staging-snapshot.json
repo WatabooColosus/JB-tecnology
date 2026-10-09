@@ -45,7 +45,12 @@
     "wpvibe_connect_plugin_installed_active": true,
     "staging_theme_draft": "woodmart-child-wpvibe-draft",
     "staging_theme_draft_published": false,
-    "preview_verified": false
+    "preview_verified": true,
+    "preview_technical_verified": true,
+    "preview_brand_stylesheet_detected": true,
+    "preview_scoped_body_class_detected": true,
+    "preview_visual_qa_completed": false,
+    "preview_private_token_not_committed": true
   },
   "needs_wp_vibe_plugin_for_file_ops": false,
   "wordpress_modified": true,

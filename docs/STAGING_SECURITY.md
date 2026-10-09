@@ -9,7 +9,8 @@ Fecha de última actualización: 2026-10-09 · Conexión autenticada WPVibe sobr
 - [x] En producción `blog_public=1` y el HTML comprobado **no** contiene `noindex` tras el cambio.
 - [x] `woodmart-child-wpvibe-draft` creado y editado en staging; **no se ha publicado** ni activado el borrador.
 - [x] Estilos propuestos en el repositorio, y copia de `assets/jb-stage.css` escrita dentro de ese borrador.
-- [ ] Vista previa: petición interrumpida por HTTP 429 del hosting; no se ha revisado la representación visual.
+- [x] Vista previa: se obtuvo después de una pausa y el HTML confirma CSS de borrador y clase de marca.
+- [ ] QA visual: móvil, escritorio, accesibilidad y navegación no realizados todavía.
 
 ## Pendientes que mantienen SEC-01 abierto
 - [ ] Proteger el subdominio con contraseña/HTTP Basic Auth o control de acceso en hPanel; `noindex` **NO equivale a privacidad**.
@@ -19,7 +20,7 @@ Fecha de última actualización: 2026-10-09 · Conexión autenticada WPVibe sobr
 - [ ] Verificar que ninguna URL/canonical del staging causa indexación involuntaria.
 
 ## Bloqueos y recuperación
-Hostinger devolvió **HTTP 429** en intentos de usar una herramienta de staging. Respetar período de espera, no insistir ni realizar llamadas paralelas repetidas. El último cambio de `functions.php` del draft devolvió éxito, pero el preview posterior no se validó por 429. Conciliar estado antes de publicar.
+Hostinger devolvió **HTTP 429** en intentos de usar una herramienta de staging. Respetar período de espera, no insistir ni realizar llamadas paralelas repetidas. Tras respetar un intervalo, la vista previa respondió y verificó carga de CSS y clase corporal. El 429 sigue siendo un riesgo operativo; no efectuar bucles de comprobación.
 
 No pulsar **Publicar** staging de Hostinger para volcar DB a producción: podría sobrescribir ventas nuevas. Las ediciones del draft WordPress son privadas mientras no se publique el borrador.
 
