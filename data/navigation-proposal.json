@@ -1,0 +1,45 @@
+{
+  "status": "propuesta_sin_publicar",
+  "header": [
+    "Inicio",
+    "Equipos",
+    "Redragon",
+    "Arma tu PC",
+    "Empresas",
+    "Servicio técnico",
+    "Promociones",
+    "Blog",
+    "Contacto"
+  ],
+  "mega_menus": {
+    "Equipos": [
+      "Portátiles",
+      "Computadores",
+      "Componentes",
+      "Monitores",
+      "Periféricos",
+      "Impresoras"
+    ],
+    "Empresas": [
+      "Equipos empresariales",
+      "Software POS",
+      "Soporte B2B",
+      "Soluciones digitales"
+    ]
+  },
+  "primary_cta": "Solicitar asesoría",
+  "existing_menu_ids": [
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "rules": [
+    "No enlaces # vacíos",
+    "No apuntar a /stores o /outlet demo",
+    "No afirmar Redragon oficial sin autorización",
+    "Soporte teclado/móvil"
+  ]
+}
