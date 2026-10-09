@@ -1,0 +1,23 @@
+name: Verificar inventario JB
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'tools/**'
+      - '.github/workflows/**'
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/validate_manifest.py
+      - run: python tools/validate_project.py
+      - run: python tools/validate_stage_code.py
+      - run: php -l wordpress/jb-stage-design/jb-stage-design.php
+      - run: php -l wordpress/staging-child/functions.php

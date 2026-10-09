@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.1",
+  "project": "JB Tecnología MED",
+  "site_url": "https://jbtecnologiamed.com.co",
+  "source_page_id": 10625,
+  "source_page_title": "Home Mega-electronics",
+  "snapshot": "2026-10-08/09",
+  "source": "WPVibe HTML autenticado; Elementor ability /elementor-get-page-structure (staging) 2026-10-09",
+  "sections": [
+    {
+      "order": 1,
+      "desired_name": "Computadoras para tu Hogar",
+      "observed_heading": "Computadores para tu Hogar",
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
+    },
+    {
+      "order": 2,
+      "desired_name": "Soluciones Empresariales",
+      "observed_heading": "Soluciones Empresariales",
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
+    },
+    {
+      "order": 3,
+      "desired_name": "Gaming",
+      "observed_heading": "Entra al mundo Gamer",
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
+    },
+    {
+      "order": 4,
+      "desired_name": "Tienda Oficial Redragon",
+      "observed_heading": "Tienda Oficial Red Dragon",
+      "elementor_widget_id": "a594443",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 5,
+      "desired_name": "Arma tu PC",
+      "observed_heading": "Cotiza tu sueño",
+      "elementor_widget_id": "358b342",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 6,
+      "desired_name": "Servicio Técnico",
+      "observed_heading": "Soluciones Digitales",
+      "elementor_widget_id": "0edf505",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 7,
+      "desired_name": "Categorías",
+      "observed_heading": "Popular Categories",
+      "elementor_widget_id": "a4f058a",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 8,
+      "desired_name": "Lo más Vendido",
+      "observed_heading": "The Best Offers",
+      "elementor_widget_id": "f39b027",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 9,
+      "desired_name": "Promociones especiales y más productos",
+      "observed_heading": "Nothing Phone 1 / New Goods",
+      "elementor_widget_id": "add2d95",
+      "evidence_state": "parcial"
+    },
+    {
+      "order": 10,
+      "desired_name": "Redragon más fuerte",
+      "observed_heading": "Red Dragon",
+      "elementor_widget_id": "9d5db0c",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 11,
+      "desired_name": "Productos Redragon",
+      "observed_heading": "Grid Red Dragon",
+      "elementor_widget_id": null,
+      "evidence_state": "parcial"
+    },
+    {
+      "order": 12,
+      "desired_name": "Más productos variables",
+      "observed_heading": "Home Appliance / Microsoft Accessories / Recently Viewed",
+      "elementor_widget_id": null,
+      "evidence_state": "parcial"
+    },
+    {
+      "order": 13,
+      "desired_name": "JB Tecnología: Soluciones empresariales y digitales",
+      "observed_heading": null,
+      "elementor_widget_id": null,
+      "evidence_state": "solicitado"
+    },
+    {
+      "order": 14,
+      "desired_name": "1A · 2B · 3C",
+      "observed_heading": null,
+      "elementor_widget_id": null,
+      "evidence_state": "solicitado"
+    },
+    {
+      "order": 15,
+      "desired_name": "Sector empresarial",
+      "observed_heading": null,
+      "elementor_widget_id": null,
+      "evidence_state": "solicitado"
+    },
+    {
+      "order": 16,
+      "desired_name": "Blog",
+      "observed_heading": "Our Articles",
+      "elementor_widget_id": "3a1cee8",
+      "evidence_state": "observado"
+    },
+    {
+      "order": 17,
+      "desired_name": "Términos y Condiciones",
+      "observed_heading": null,
+      "elementor_widget_id": null,
+      "evidence_state": "solicitado"
+    },
+    {
+      "order": 18,
+      "desired_name": "Lugares / Dirección / Empresa",
+      "observed_heading": null,
+      "elementor_widget_id": null,
+      "evidence_state": "solicitado"
+    },
+    {
+      "order": 19,
+      "desired_name": "Footer",
+      "observed_heading": "Footer WoodMart",
+      "elementor_widget_id": null,
+      "evidence_state": "observado"
+    }
+  ]
+}

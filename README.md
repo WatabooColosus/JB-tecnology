@@ -30,3 +30,18 @@ WordPress · WoodMart Child · Elementor · WooCommerce · Composite Products. L
 - Los precios y productos importados de demo **no equivalen** al inventario empresarial.
 
 La apertura del código no implica que el contenido de WordPress ni las credenciales deban ser públicos.
+
+## Centro de operación y diseño (2026-10-09)
+- [Mapa maestro de las 19 secciones de la landing](docs/LANDING_MAESTRA.md)
+- [Especificaciones por sección (JSON)](data/landing-spec.json)
+- [Dimensiones responsive, tokens visuales y animaciones](docs/SISTEMA_VISUAL_DIMENSIONES.md)
+- [Menús y megamenús WoodMart](docs/ARQUITECTURA_MENUS.md)
+- [Decisiones, ideas y bloqueos](docs/DECISIONES_IDEAS.md)
+- [Staging y puerta de seguridad P0](docs/STAGING_SECURITY.md)
+- [Issues y dependencias](docs/TAREAS_GITHUB.md)
+- [Backlog de trabajo verificable](data/backlog.json)
+- [Proceso para Codex + WPVibe](docs/PROCESO_CODEX_WPVIBE.md)
+
+**Staging:** https://staging.jbtecnologiamed.com.co (conexión WPVibe verificada; seguridad y noindex pendientes de confirmar). La producción NO es destino de despliegues automáticos.
+
+**Actualización de staging:** `blog_public=0` y `noindex` confirmados. WPVibe avanzado activado solo en staging. Draft de Woodmart Child creado y escrito, aún sin publicar; preview pendiente por HTTP 429. Ver [Estado de seguridad](docs/STAGING_SECURITY.md) y [Registro del borrador](docs/STAGING_DRAFT.md).

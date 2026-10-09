@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sql
+*.bak
+*.zip
+wp-config.php
+wordpress/wp-config.php
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+node_modules/
+vendor/
+brand/private/
+backups/
+__pycache__/

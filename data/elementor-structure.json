@@ -1,0 +1,355 @@
+{
+  "source": "hostinger-ai/elementor-get-page-structure vía WPVibe staging",
+  "checked_at": "2026-10-09",
+  "page_id": 10625,
+  "notes": [
+    "El widget 92fe419 es un wd_slider; los 3 textos del slider viven en datos de slides WoodMart separados.",
+    "Hay root container 9b34239 con fondo image; no sobrescribir sin inspección.",
+    "Otros 3 banners pertenecen a e522a5c, revisar si se asignarán a 1A-2B-3C.",
+    "La página tiene recursos demo y grillas wd_products; no hay inventario validado."
+  ],
+  "nodes": [
+    {
+      "id": "7568552",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "grupo hero: slider, banner Redragon y banners complementarios"
+    },
+    {
+      "id": "2d3e32a",
+      "parent_id": "7568552",
+      "widget_type": "container",
+      "purpose": "contenedor del slider"
+    },
+    {
+      "id": "92fe419",
+      "parent_id": "2d3e32a",
+      "widget_type": "wd_slider",
+      "purpose": "slider 3 mundos; títulos están en slides WoodMart, no en widgets del documento home"
+    },
+    {
+      "id": "2c204d2",
+      "parent_id": "7568552",
+      "widget_type": "container",
+      "purpose": "grupo banners"
+    },
+    {
+      "id": "a594443",
+      "parent_id": "2c204d2",
+      "widget_type": "wd_banner",
+      "purpose": "Redragon en hero"
+    },
+    {
+      "id": "632a8bd",
+      "parent_id": "2c204d2",
+      "widget_type": "container",
+      "purpose": "dos banners secundarios"
+    },
+    {
+      "id": "358b342",
+      "parent_id": "632a8bd",
+      "widget_type": "wd_banner",
+      "purpose": "Arma tu PC"
+    },
+    {
+      "id": "0edf505",
+      "parent_id": "632a8bd",
+      "widget_type": "wd_banner",
+      "purpose": "Servicio técnico"
+    },
+    {
+      "id": "8c17414",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "sección categorías"
+    },
+    {
+      "id": "a4f058a",
+      "parent_id": "8c17414",
+      "widget_type": "wd_title",
+      "purpose": "título categorías"
+    },
+    {
+      "id": "0a8805a",
+      "parent_id": "8c17414",
+      "widget_type": "wd_product_categories",
+      "purpose": "categorías grid"
+    },
+    {
+      "id": "83672e3",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "ofertas"
+    },
+    {
+      "id": "4ae0916",
+      "parent_id": "83672e3",
+      "widget_type": "container",
+      "purpose": "cabecera ofertas"
+    },
+    {
+      "id": "f39b027",
+      "parent_id": "4ae0916",
+      "widget_type": "wd_title",
+      "purpose": "título ofertas"
+    },
+    {
+      "id": "b06b2e1",
+      "parent_id": "4ae0916",
+      "widget_type": "wd_button",
+      "purpose": "botón ofertas"
+    },
+    {
+      "id": "02967c8",
+      "parent_id": "83672e3",
+      "widget_type": "wd_products",
+      "purpose": "productos ofertas"
+    },
+    {
+      "id": "ccf832f",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "banner y nuevos productos"
+    },
+    {
+      "id": "c8b2d29",
+      "parent_id": "ccf832f",
+      "widget_type": "container",
+      "purpose": "banner destacado"
+    },
+    {
+      "id": "add2d95",
+      "parent_id": "c8b2d29",
+      "widget_type": "wd_banner",
+      "purpose": "promoción especial"
+    },
+    {
+      "id": "f060712",
+      "parent_id": "ccf832f",
+      "widget_type": "container",
+      "purpose": "carrusel New Goods"
+    },
+    {
+      "id": "11dc697",
+      "parent_id": "f060712",
+      "widget_type": "container",
+      "purpose": "cabecera New Goods"
+    },
+    {
+      "id": "24979cf",
+      "parent_id": "11dc697",
+      "widget_type": "wd_title",
+      "purpose": "New Goods"
+    },
+    {
+      "id": "96700c8",
+      "parent_id": "11dc697",
+      "widget_type": "wd_button",
+      "purpose": "botón New Goods"
+    },
+    {
+      "id": "6d5ed1b",
+      "parent_id": "f060712",
+      "widget_type": "wd_products",
+      "purpose": "carrusel New Goods"
+    },
+    {
+      "id": "9b34239",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "bloque Redragon con fondo de imagen; NO sobrescribir a ciegas"
+    },
+    {
+      "id": "d10dcb4",
+      "parent_id": "9b34239",
+      "widget_type": "container",
+      "purpose": "sección interior Redragon"
+    },
+    {
+      "id": "63d11af",
+      "parent_id": "d10dcb4",
+      "widget_type": "container",
+      "purpose": "imagen marca Redragon"
+    },
+    {
+      "id": "8e19b27",
+      "parent_id": "63d11af",
+      "widget_type": "wd_image_or_svg",
+      "purpose": "imagen o SVG de Redragon"
+    },
+    {
+      "id": "77e9605",
+      "parent_id": "d10dcb4",
+      "widget_type": "container",
+      "purpose": "título y llamada a la acción Redragon"
+    },
+    {
+      "id": "9d5db0c",
+      "parent_id": "77e9605",
+      "widget_type": "wd_title",
+      "purpose": "título Redragon"
+    },
+    {
+      "id": "c641c25",
+      "parent_id": "77e9605",
+      "widget_type": "wd_countdown_timer",
+      "purpose": "temporizador: verificar fecha/promoción antes de conservar"
+    },
+    {
+      "id": "d7cc151",
+      "parent_id": "77e9605",
+      "widget_type": "wd_button",
+      "purpose": "CTA Redragon"
+    },
+    {
+      "id": "361c1c4",
+      "parent_id": "9b34239",
+      "widget_type": "wd_products",
+      "purpose": "grid Redragon (actualmente puede mostrar demo)"
+    },
+    {
+      "id": "0589a74",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "más productos"
+    },
+    {
+      "id": "50c195d",
+      "parent_id": "0589a74",
+      "widget_type": "container",
+      "purpose": "cabecera de productos"
+    },
+    {
+      "id": "9a9fd19",
+      "parent_id": "50c195d",
+      "widget_type": "wd_title",
+      "purpose": "título categoría demo Home Appliance"
+    },
+    {
+      "id": "5579ff3",
+      "parent_id": "50c195d",
+      "widget_type": "wd_button",
+      "purpose": "CTA de productos"
+    },
+    {
+      "id": "8f79708",
+      "parent_id": "0589a74",
+      "widget_type": "wd_products",
+      "purpose": "productos Home Appliance"
+    },
+    {
+      "id": "3f0349b",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "zona comercial secundaria"
+    },
+    {
+      "id": "67ca5c7",
+      "parent_id": "3f0349b",
+      "widget_type": "container",
+      "purpose": "bloques comerciales secundarios"
+    },
+    {
+      "id": "d429631",
+      "parent_id": "67ca5c7",
+      "widget_type": "container",
+      "purpose": "presentación de categorías y marcas"
+    },
+    {
+      "id": "ae86de8",
+      "parent_id": "20309da",
+      "widget_type": "wd_title",
+      "purpose": "cabecera Microsoft Accessories"
+    },
+    {
+      "id": "e522a5c",
+      "parent_id": "67ca5c7",
+      "widget_type": "container",
+      "purpose": "grupo de 3 banners"
+    },
+    {
+      "id": "a34aa36",
+      "parent_id": "e522a5c",
+      "widget_type": "wd_banner",
+      "purpose": "banner 1"
+    },
+    {
+      "id": "8370220",
+      "parent_id": "e522a5c",
+      "widget_type": "wd_banner",
+      "purpose": "banner 2"
+    },
+    {
+      "id": "1a971bc",
+      "parent_id": "e522a5c",
+      "widget_type": "wd_banner",
+      "purpose": "banner 3"
+    },
+    {
+      "id": "bac3fab",
+      "parent_id": "f816e73",
+      "widget_type": "wd_products",
+      "purpose": "más productos secundarios"
+    },
+    {
+      "id": "e15b1f2",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "productos vistos recientemente"
+    },
+    {
+      "id": "2873ffc",
+      "parent_id": "e15b1f2",
+      "widget_type": "wd_products",
+      "purpose": "recently viewed"
+    },
+    {
+      "id": "a8d67dc",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "blog"
+    },
+    {
+      "id": "3a1cee8",
+      "parent_id": "a8d67dc",
+      "widget_type": "wd_title",
+      "purpose": "título blog"
+    },
+    {
+      "id": "1bb77de",
+      "parent_id": "a8d67dc",
+      "widget_type": "wd_blog",
+      "purpose": "artículos blog"
+    },
+    {
+      "id": "34936cb",
+      "parent_id": null,
+      "widget_type": "container",
+      "purpose": "cierre corporativo de la home"
+    },
+    {
+      "id": "8e842d3",
+      "parent_id": "34936cb",
+      "widget_type": "container",
+      "purpose": "presentación final"
+    },
+    {
+      "id": "1e52912",
+      "parent_id": "8e842d3",
+      "widget_type": "wd_title",
+      "purpose": "encabezado cierre (demo)"
+    },
+    {
+      "id": "fdc69ab",
+      "parent_id": "8e842d3",
+      "widget_type": "wd_text_block",
+      "purpose": "texto corporativo (demo)"
+    },
+    {
+      "id": "261f538",
+      "parent_id": "8e842d3",
+      "widget_type": "wd_button",
+      "purpose": "CTA final (demo)"
+    }
+  ]
+}

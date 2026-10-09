@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0.0",
+  "source_of_truth": "GitHub Issues + data/backlog.json de planificación; Issues prevalecen en estado cuando existan",
+  "site": "https://staging.jbtecnologiamed.com.co",
+  "status_glossary": {
+    "todo": "Pendiente",
+    "in_progress": "En trabajo",
+    "blocked": "Necesita tercero/validación",
+    "review": "En revisión",
+    "done": "Comprobado con evidencia",
+    "backlog": "Fase posterior"
+  },
+  "priority_glossary": {
+    "P0": "Seguridad, sin iniciar cambios en sitio hasta resolver",
+    "P1": "Navegación y landing",
+    "P2": "Catálogo y variaciones",
+    "P3": "Integraciones y operación"
+  },
+  "tasks": [
+    {
+      "id": "SEC-01",
+      "priority": "P0",
+      "title": "Preparar staging: aislamiento y noindex",
+      "area": "staging",
+      "status": "in_progress",
+      "depends_on": [],
+      "acceptance": [
+        "Confirmar acceso restringido y cabecera noindex",
+        "Bloquear correos reales y webhooks/cobros sin riesgo de producción",
+        "Comprobar backup restaurable y BD realmente aislada",
+        "Registrar evidencia no sensible"
+      ],
+      "evidence": [
+        "WP-CLI staging: option get blog_public => 0 tras update (previamente 1); HTML <head> del staging contiene noindex",
+        "WordPress producción: blog_public permanece 1 y no contiene noindex en <head> durante comprobación",
+        "WPVibe Connect 1.20.3 instalado/activado solo en staging; WP-CLI volvió a funcionar",
+        "Pendiente: protección por contraseña en Hostinger, backup, medios de pago/emails/webhooks y aislamiento SQL definitivo"
+      ],
+      "issue": 2,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/2"
+    },
+    {
+      "id": "NAV-01",
+      "priority": "P1",
+      "title": "Auditar WoodMart Header Builder y seis menús",
+      "area": "menu",
+      "status": "in_progress",
+      "depends_on": [
+        "SEC-01"
+      ],
+      "acceptance": [
+        "Identificar header activo y ubicación de elementos desktop/móvil/sticky",
+        "Inventario de IDs menús 215 a 220 y rutas",
+        "Diferenciar menú visible y menú legado no asignado"
+      ],
+      "evidence": [
+        "GET wp/v2/menus devolvió 6 menús 215..220; header visual usa menu-header-menu-mega-electronics 215",
+        "Elementor home 10625: 57 contenedores/widgets documentados en data/elementor-structure.json",
+        "Pendiente determinar Header Builder/template exacto en WoodMart"
+      ],
+      "issue": 3,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/3"
+    },
+    {
+      "id": "BRAND-01",
+      "priority": "P1",
+      "title": "Aplicar identidad provisional JB a diseño base",
+      "area": "brand",
+      "status": "in_progress",
+      "depends_on": [
+        "SEC-01"
+      ],
+      "acceptance": [
+        "Nuevos dos logos aprobados como referencia",
+        "Definir colores provisionales sin atribuir exactitud al manual definitivo",
+        "Aprobar diseño desktop móvil y estados foco/hover"
+      ],
+      "evidence": [
+        "Draft theme woodmart-child-wpvibe-draft creado para staging, sin publicar",
+        "assets/jb-stage.css y functions.php de borrador escritos mediante WPVibe; preview pendiente por HTTP 429",
+        "CSS fuente versionado en wordpress/jb-stage-design/assets/css/jb-stage.css",
+        "Manual final y logo transparente pendientes"
+      ],
+      "issue": 4,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/4"
+    },
+    {
+      "id": "NAV-02",
+      "priority": "P1",
+      "title": "Rediseñar navegación y megamenús de JB",
+      "area": "menu",
+      "status": "todo",
+      "depends_on": [
+        "NAV-01",
+        "BRAND-01"
+      ],
+      "acceptance": [
+        "Desktop / móvil / sticky / cuenta / búsqueda / carrito",
+        "Corregir enlaces de prueba y menús heredados",
+        "No enlazar destino inexistente ni CTA a #"
+      ],
+      "evidence": [],
+      "issue": 5,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/5"
+    },
+    {
+      "id": "HOME-01",
+      "priority": "P1",
+      "title": "Mapear contenedores padres de 19 bloques Elementor",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "SEC-01"
+      ],
+      "acceptance": [
+        "Obtener IDs padres, widgets y estructura ordenada en staging",
+        "No modificar JSON serializado directamente",
+        "Captura comparativa before con enlace y fecha"
+      ],
+      "evidence": [],
+      "issue": 6,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/6"
+    },
+    {
+      "id": "HOME-02",
+      "priority": "P1",
+      "title": "Renovar tríada Hogar / Empresas / Gaming",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "HOME-01",
+        "BRAND-01"
+      ],
+      "acceptance": [
+        "3 accesos visuales y textos comerciales aprobados",
+        "CTA a rutas verificadas",
+        "Responsive sin solapamientos"
+      ],
+      "evidence": [],
+      "issue": 7,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/7"
+    },
+    {
+      "id": "HOME-03",
+      "priority": "P1",
+      "title": "Diseñar espacios destacados Redragon",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "HOME-01",
+        "BRAND-01"
+      ],
+      "acceptance": [
+        "Verificar respaldo para 'Tienda Oficial' antes de utilizarlo",
+        "No simular inventario ni alianza",
+        "Banner y grilla reutilizables"
+      ],
+      "evidence": [],
+      "issue": 8,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/8"
+    },
+    {
+      "id": "HOME-04",
+      "priority": "P1",
+      "title": "Arma tu PC y servicio técnico en landing",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "HOME-01",
+        "BRAND-01"
+      ],
+      "acceptance": [
+        "CTA de asesoría/cotización funcional",
+        "BuildCores solo teaser, ninguna integración falsa",
+        "Servicio técnico ligado a canal verificado"
+      ],
+      "evidence": [],
+      "issue": 9,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/9"
+    },
+    {
+      "id": "HOME-05",
+      "priority": "P1",
+      "title": "Categorías, destacados y promociones sin demos",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "HOME-01"
+      ],
+      "acceptance": [
+        "No mostrar ranking de ventas sin datos",
+        "Productos y precios verificados antes de publicar",
+        "Carruseles accesibles y sin saltos de layout"
+      ],
+      "evidence": [],
+      "issue": 10,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/10"
+    },
+    {
+      "id": "HOME-06",
+      "priority": "P1",
+      "title": "Grids empresariales, diferenciales y contacto",
+      "area": "landing",
+      "status": "todo",
+      "depends_on": [
+        "HOME-01"
+      ],
+      "acceptance": [
+        "Definir significado real de 1A/2B/3C",
+        "Retirar teléfonos/direcciones de WoodMart demo",
+        "Footer y contactos de la empresa aprobados"
+      ],
+      "evidence": [],
+      "issue": 11,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/11"
+    },
+    {
+      "id": "RESP-01",
+      "priority": "P1",
+      "title": "Verificar dimensiones y UX responsive",
+      "area": "quality",
+      "status": "todo",
+      "depends_on": [
+        "NAV-02",
+        "HOME-02"
+      ],
+      "acceptance": [
+        "Medir 360,390,430,768,1024,1440 y 1920px",
+        "Comprobar teclado, foco, contraste, motion, menú touch",
+        "Presupuesto LCP/CLS/INP tratado como objetivo, no resultado"
+      ],
+      "evidence": [],
+      "issue": 12,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/12"
+    },
+    {
+      "id": "CAT-01",
+      "priority": "P2",
+      "title": "Taxonomía y atributos reales de catálogo",
+      "area": "catalog",
+      "status": "backlog",
+      "depends_on": [
+        "HOME-05"
+      ],
+      "acceptance": [
+        "Categorías y jerarquías aprobadas",
+        "SKU, moneda COP, stock y fichas verificadas",
+        "Sin borrar ni alterar demo en producción"
+      ],
+      "evidence": [],
+      "issue": 13,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/13"
+    },
+    {
+      "id": "CAT-02",
+      "priority": "P2",
+      "title": "Productos variables e imágenes AJAX",
+      "area": "catalog",
+      "status": "backlog",
+      "depends_on": [
+        "CAT-01"
+      ],
+      "acceptance": [
+        "Usar swatches y WooCommerce variation gallery nativas primero",
+        "Fallback, accesibilidad, SEO y rendimiento",
+        "Diferenciar AJAX propio de funcionalidades WoodMart"
+      ],
+      "evidence": [],
+      "issue": 14,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/14"
+    },
+    {
+      "id": "BUILD-01",
+      "priority": "P3",
+      "title": "Conectar Composite Products con BuildCores",
+      "area": "integrations",
+      "status": "blocked",
+      "depends_on": [
+        "CAT-01",
+        "CAT-02"
+      ],
+      "acceptance": [
+        "Contrato y documentación de API verificados",
+        "Capa backend segura, mapeo SKU y compatibilidad",
+        "WooCommerce como fuente de precio, stock y pedido"
+      ],
+      "evidence": [],
+      "issue": 15,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/15"
+    },
+    {
+      "id": "LEGAL-01",
+      "priority": "P3",
+      "title": "Legal, blog, ubicaciones y checkout",
+      "area": "operations",
+      "status": "backlog",
+      "depends_on": [
+        "CAT-01"
+      ],
+      "acceptance": [
+        "Legales revisados y publicados",
+        "Páginas corporativas con datos reales",
+        "Pagos/envíos solo en sandbox hasta test E2E"
+      ],
+      "evidence": [],
+      "issue": 16,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/16"
+    },
+    {
+      "id": "RELEASE-01",
+      "priority": "P3",
+      "title": "Publicación segura desde staging",
+      "area": "release",
+      "status": "blocked",
+      "depends_on": [
+        "RESP-01",
+        "LEGAL-01"
+      ],
+      "acceptance": [
+        "Backup probado",
+        "No sobrescribir pedidos de producción mediante push DB",
+        "Diff, aprobación y monitoreo posterior"
+      ],
+      "evidence": [],
+      "issue": 17,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/17"
+    }
+  ]
+}

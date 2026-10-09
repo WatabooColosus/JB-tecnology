@@ -1,0 +1,17 @@
+{
+  "status": "provisional_pendiente_manual",
+  "replaces": "JB Pulse",
+  "name": "JB Tecnología MED",
+  "palette_proposed": {
+    "carbon": "#0C141B",
+    "cyan": "#43CED0",
+    "silver": "#EDF2F4",
+    "muted": "#A5BEC6"
+  },
+  "logos": "Las dos imágenes nuevas están disponibles al cliente en la conversación; no se suben originales al repositorio público",
+  "rules": [
+    "No deformar",
+    "No generar logotipos sustitutivos",
+    "Preparar variante transparente al recibir recursos finales"
+  ]
+}
