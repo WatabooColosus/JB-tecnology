@@ -1,17 +1,17 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "source": "Declaración del propietario + WPVibe de producción/staging (HTML, REST)",
   "page_id": 10625,
   "page_title": "Home Mega-electronics",
   "snapshot_date": "2026-10-09",
-  "change_policy": "editor Elementor en staging; cada ID representa un widget y no necesariamente su contenedor padre",
+  "change_policy": "Distinguir contenido de slide WoodMart del widget slider en Elementor; nunca tratar ID HTML slide como widget de Elementor.",
   "section_count": 19,
   "sections": [
     {
       "order": 1,
       "key": "home",
       "title": "Computadoras para tu Hogar",
-      "elementor_widget_id": "7565dcd",
+      "elementor_widget_id": null,
       "source_confidence": "observado",
       "proposed_component": "hero-card",
       "primary_cta": "Explorar equipos para el hogar",
@@ -19,13 +19,15 @@
       "task": "HOME-02",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 2,
       "key": "business-solution",
       "title": "Soluciones Empresariales",
-      "elementor_widget_id": "b87a7ba",
+      "elementor_widget_id": null,
       "source_confidence": "observado",
       "proposed_component": "hero-card",
       "primary_cta": "Solicitar asesoría empresarial",
@@ -33,13 +35,15 @@
       "task": "HOME-02",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 3,
       "key": "gaming",
       "title": "Gaming",
-      "elementor_widget_id": "415d62f",
+      "elementor_widget_id": null,
       "source_confidence": "observado",
       "proposed_component": "hero-card",
       "primary_cta": "Explorar gaming",
@@ -47,7 +51,9 @@
       "task": "HOME-02",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 4,
@@ -61,7 +67,8 @@
       "task": "HOME-03",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "2c204d2"
     },
     {
       "order": 5,
@@ -75,7 +82,8 @@
       "task": "HOME-04",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "632a8bd"
     },
     {
       "order": 6,
@@ -89,7 +97,8 @@
       "task": "HOME-04",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "632a8bd"
     },
     {
       "order": 7,
@@ -103,7 +112,8 @@
       "task": "HOME-05",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "8c17414"
     },
     {
       "order": 8,
@@ -117,7 +127,8 @@
       "task": "HOME-05",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "83672e3"
     },
     {
       "order": 9,
@@ -131,7 +142,8 @@
       "task": "HOME-05",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "ccf832f"
     },
     {
       "order": 10,
@@ -145,7 +157,8 @@
       "task": "HOME-03",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "9b34239"
     },
     {
       "order": 11,
@@ -159,7 +172,8 @@
       "task": "HOME-03",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "9b34239"
     },
     {
       "order": 12,
@@ -173,7 +187,8 @@
       "task": "CAT-02",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "0589a74"
     },
     {
       "order": 13,
@@ -229,7 +244,8 @@
       "task": "LEGAL-01",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "a8d67dc"
     },
     {
       "order": 17,
@@ -271,7 +287,8 @@
       "task": "HOME-06",
       "status": "pending",
       "published_to_staging": false,
-      "verified_in_production": false
+      "verified_in_production": false,
+      "container_id": "34936cb"
     }
   ]
 }

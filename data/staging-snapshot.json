@@ -36,7 +36,10 @@
     "db_isolation_verified": false,
     "mails_and_webhooks_disabled_verified": false,
     "backups_verified": false,
-    "payment_sandbox_verified": false
+    "payment_sandbox_verified": false,
+    "blog_public_reading_setting": 1,
+    "wp_environment_type": "production (WP reported; NO demuestra que sea producción ni que DB esté aislada)",
+    "wordpress_theme_or_plugin_changed": false
   },
   "needs_wp_vibe_plugin_for_file_ops": true,
   "wordpress_modified": false

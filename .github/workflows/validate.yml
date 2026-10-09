@@ -18,3 +18,5 @@ jobs:
           python-version: '3.12'
       - run: python tools/validate_manifest.py
       - run: python tools/validate_project.py
+      - run: python tools/validate_stage_code.py
+      - run: php -l wordpress/jb-stage-design/jb-stage-design.php

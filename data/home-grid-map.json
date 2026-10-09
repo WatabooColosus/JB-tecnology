@@ -1,32 +1,38 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project": "JB Tecnología MED",
   "site_url": "https://jbtecnologiamed.com.co",
   "source_page_id": 10625,
   "source_page_title": "Home Mega-electronics",
   "snapshot": "2026-10-08/09",
-  "source": "WPVibe HTML autenticado",
+  "source": "WPVibe HTML autenticado; Elementor ability /elementor-get-page-structure (staging) 2026-10-09",
   "sections": [
     {
       "order": 1,
       "desired_name": "Computadoras para tu Hogar",
       "observed_heading": "Computadores para tu Hogar",
-      "elementor_widget_id": "7565dcd",
-      "evidence_state": "observado"
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 2,
       "desired_name": "Soluciones Empresariales",
       "observed_heading": "Soluciones Empresariales",
-      "elementor_widget_id": "b87a7ba",
-      "evidence_state": "observado"
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 3,
       "desired_name": "Gaming",
       "observed_heading": "Entra al mundo Gamer",
-      "elementor_widget_id": "415d62f",
-      "evidence_state": "observado"
+      "elementor_widget_id": null,
+      "evidence_state": "observado",
+      "slider_widget_id": "92fe419",
+      "source_level": "woodmart_slider_content"
     },
     {
       "order": 4,
