@@ -20,3 +20,4 @@ jobs:
       - run: python tools/validate_project.py
       - run: python tools/validate_stage_code.py
       - run: php -l wordpress/jb-stage-design/jb-stage-design.php
+      - run: php -l wordpress/staging-child/functions.php

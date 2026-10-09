@@ -17,3 +17,6 @@ Leer además `data/landing-spec.json`, `data/backlog.json`, `docs/SISTEMA_VISUAL
 - Las Issues GitHub enlazadas desde backlog son la fuente del progreso operativo. Nunca marcar finalizado sin evidencia.
 - **Bloqueo SEC-01:** staging está conectado, pero no se ha verificado noindex, control de acceso, aislamiento DB ni bloqueo de envíos reales. No hacer modificaciones hasta verificar estos puntos.
 - Priorizar menús/landing; catálogo y BuildCores después. Respetar logos nuevos y manual futuro, Redragon oficial solo si hay autorización.
+
+### Estado factual 2026-10-09
+Staging: `blog_public=0` y `noindex` corroborados. Protección con contraseña y bloqueo de correos/pagos aún pendientes. Existe borrador WPVibe `woodmart-child-wpvibe-draft`, con CSS y funciones escritas, **no publicado**. No duplicar cambios en draft sin comprobar existencia, ni forzar vista previa en bucle si Hostinger responde 429.

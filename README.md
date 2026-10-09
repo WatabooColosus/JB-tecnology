@@ -43,3 +43,5 @@ La apertura del código no implica que el contenido de WordPress ni las credenci
 - [Proceso para Codex + WPVibe](docs/PROCESO_CODEX_WPVIBE.md)
 
 **Staging:** https://staging.jbtecnologiamed.com.co (conexión WPVibe verificada; seguridad y noindex pendientes de confirmar). La producción NO es destino de despliegues automáticos.
+
+**Actualización de staging:** `blog_public=0` y `noindex` confirmados. WPVibe avanzado activado solo en staging. Draft de Woodmart Child creado y escrito, aún sin publicar; preview pendiente por HTTP 429. Ver [Estado de seguridad](docs/STAGING_SECURITY.md) y [Registro del borrador](docs/STAGING_DRAFT.md).

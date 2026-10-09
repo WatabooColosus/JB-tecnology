@@ -22,7 +22,7 @@
       "priority": "P0",
       "title": "Preparar staging: aislamiento y noindex",
       "area": "staging",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [],
       "acceptance": [
         "Confirmar acceso restringido y cabecera noindex",
@@ -30,7 +30,12 @@
         "Comprobar backup restaurable y BD realmente aislada",
         "Registrar evidencia no sensible"
       ],
-      "evidence": [],
+      "evidence": [
+        "WP-CLI staging: option get blog_public => 0 tras update (previamente 1); HTML <head> del staging contiene noindex",
+        "WordPress producción: blog_public permanece 1 y no contiene noindex en <head> durante comprobación",
+        "WPVibe Connect 1.20.3 instalado/activado solo en staging; WP-CLI volvió a funcionar",
+        "Pendiente: protección por contraseña en Hostinger, backup, medios de pago/emails/webhooks y aislamiento SQL definitivo"
+      ],
       "issue": 2,
       "owner": "sin_asignar",
       "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/2"
@@ -40,7 +45,7 @@
       "priority": "P1",
       "title": "Auditar WoodMart Header Builder y seis menús",
       "area": "menu",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "SEC-01"
       ],
@@ -49,7 +54,11 @@
         "Inventario de IDs menús 215 a 220 y rutas",
         "Diferenciar menú visible y menú legado no asignado"
       ],
-      "evidence": [],
+      "evidence": [
+        "GET wp/v2/menus devolvió 6 menús 215..220; header visual usa menu-header-menu-mega-electronics 215",
+        "Elementor home 10625: 57 contenedores/widgets documentados en data/elementor-structure.json",
+        "Pendiente determinar Header Builder/template exacto en WoodMart"
+      ],
       "issue": 3,
       "owner": "sin_asignar",
       "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/3"
@@ -59,7 +68,7 @@
       "priority": "P1",
       "title": "Aplicar identidad provisional JB a diseño base",
       "area": "brand",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "SEC-01"
       ],
@@ -68,7 +77,12 @@
         "Definir colores provisionales sin atribuir exactitud al manual definitivo",
         "Aprobar diseño desktop móvil y estados foco/hover"
       ],
-      "evidence": [],
+      "evidence": [
+        "Draft theme woodmart-child-wpvibe-draft creado para staging, sin publicar",
+        "assets/jb-stage.css y functions.php de borrador escritos mediante WPVibe; preview pendiente por HTTP 429",
+        "CSS fuente versionado en wordpress/jb-stage-design/assets/css/jb-stage.css",
+        "Manual final y logo transparente pendientes"
+      ],
       "issue": 4,
       "owner": "sin_asignar",
       "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/4"
