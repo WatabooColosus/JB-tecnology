@@ -6,6 +6,8 @@ on:
       - 'tools/**'
       - '.github/workflows/**'
   pull_request:
+permissions:
+  contents: read
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -15,3 +17,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/validate_manifest.py
+      - run: python tools/validate_project.py

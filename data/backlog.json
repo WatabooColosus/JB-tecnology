@@ -31,8 +31,9 @@
         "Registrar evidencia no sensible"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 2,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/2"
     },
     {
       "id": "NAV-01",
@@ -49,8 +50,9 @@
         "Diferenciar menú visible y menú legado no asignado"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 3,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/3"
     },
     {
       "id": "BRAND-01",
@@ -67,8 +69,9 @@
         "Aprobar diseño desktop móvil y estados foco/hover"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 4,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/4"
     },
     {
       "id": "NAV-02",
@@ -86,8 +89,9 @@
         "No enlazar destino inexistente ni CTA a #"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 5,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/5"
     },
     {
       "id": "HOME-01",
@@ -104,8 +108,9 @@
         "Captura comparativa before con enlace y fecha"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 6,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/6"
     },
     {
       "id": "HOME-02",
@@ -123,8 +128,9 @@
         "Responsive sin solapamientos"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 7,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/7"
     },
     {
       "id": "HOME-03",
@@ -142,8 +148,9 @@
         "Banner y grilla reutilizables"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 8,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/8"
     },
     {
       "id": "HOME-04",
@@ -161,8 +168,9 @@
         "Servicio técnico ligado a canal verificado"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 9,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/9"
     },
     {
       "id": "HOME-05",
@@ -179,8 +187,9 @@
         "Carruseles accesibles y sin saltos de layout"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 10,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/10"
     },
     {
       "id": "HOME-06",
@@ -197,8 +206,9 @@
         "Footer y contactos de la empresa aprobados"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 11,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/11"
     },
     {
       "id": "RESP-01",
@@ -216,8 +226,9 @@
         "Presupuesto LCP/CLS/INP tratado como objetivo, no resultado"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 12,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/12"
     },
     {
       "id": "CAT-01",
@@ -234,8 +245,9 @@
         "Sin borrar ni alterar demo en producción"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 13,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/13"
     },
     {
       "id": "CAT-02",
@@ -252,8 +264,9 @@
         "Diferenciar AJAX propio de funcionalidades WoodMart"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 14,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/14"
     },
     {
       "id": "BUILD-01",
@@ -271,8 +284,9 @@
         "WooCommerce como fuente de precio, stock y pedido"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 15,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/15"
     },
     {
       "id": "LEGAL-01",
@@ -289,8 +303,9 @@
         "Pagos/envíos solo en sandbox hasta test E2E"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 16,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/16"
     },
     {
       "id": "RELEASE-01",
@@ -308,8 +323,9 @@
         "Diff, aprobación y monitoreo posterior"
       ],
       "evidence": [],
-      "issue": null,
-      "owner": "sin_asignar"
+      "issue": 17,
+      "owner": "sin_asignar",
+      "issue_url": "https://github.com/WatabooColosus/JB-tecnology/issues/17"
     }
   ]
 }
